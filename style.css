@@ -1,0 +1,40 @@
+body{
+    background-color: #1E0034;
+}
+
+header{
+    background-color: #C6C4CC;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1em;
+}
+
+.menu li{
+    padding: 0 3em;
+}
+.menu a{
+    text-decoration: none;
+    color: #1E0034;
+    font-size: 1em;
+}
+main h1, h2{
+    margin-top: 1em;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+.work ul{
+    margin: 1em;
+    display: grid;
+    grid-gap:1.25em;
+}
+
+.work img{
+    width: 100%;
+}
