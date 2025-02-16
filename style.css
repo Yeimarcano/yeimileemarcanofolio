@@ -212,9 +212,9 @@ footer {
     flex-direction: row;
     align-items: center;
     margin-top: 1em;
-    padding-top: 2em;
-    padding-bottom: 3em;
+    padding: 2em;
     background-color: #1E0034;
+    clear: both;
     
     
    
