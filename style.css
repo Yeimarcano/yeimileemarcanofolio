@@ -7,6 +7,9 @@ body{
     font-style: normal;
     color: white;
 }
+.wrapper{
+    margin: 5% 8%;
+}
 
 /* ***************************HEADER************************* */
 header{
@@ -43,7 +46,7 @@ header{
 
 
 /* *******************************HomePage************************************8 */
-.home h2, h3{
+.home h2, .home h3{
     margin-top:1em;
     font-style: italic;
     text-align: center;
@@ -65,13 +68,13 @@ header{
 }
 
 .banner{
-    max-width:82%;
-    margin-left: 8.767%;
+    max-width:100%;
+    /* margin-left: 7.3%; */
 }
 
 .work {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
   
 }
 .work img{
@@ -91,9 +94,7 @@ header{
 }
 
 /* ***************************************PROJECTS PAGE */
-.project{
-    margin: 5% 10%;
-}
+
 .project h1 {
     text-align: center;
     font-size: 5rem;
@@ -108,11 +109,7 @@ header{
 
 
 /* ***************************DESCRIPTIONS*********************************** */
-.description{
-    margin: 5% 10%;
-    text-align: left;
-    
-}
+
 .description h1{
     font-size: 4rem;
     font-weight: 800;
@@ -132,6 +129,7 @@ header{
 }
 
 .description h3{
+    margin-top: 2em;
     font-size: 1.75em;
     font-weight: 600;
     font-style: italic;
@@ -155,7 +153,7 @@ header{
 .showcase{
     clear: both;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
 .one{
@@ -170,33 +168,39 @@ header{
 #p2{
     margin-bottom: 4em;
 }
-#p3{
-    /* margin-top:2em; */
 
-}
-#p3, #p4{
-    float: right;
-    width: 55%;
-   
-
-}
-
-.body{
-    float: right;
-    width: 55%;
+.grid{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 1.75em;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3em;
+
 }
-.body li{
+#vimeo{
+  grid-row-start:1;
+  grid-row-end: span 2;
+}
+
+
+#p3{
+   grid-column-start: 2;
+   grid-column-end: span 3;
+   margin-top: 0;
+}
+
+.body1 ul, .body2 ul{
+    margin-top: 0.75em;
+
+}
+
+.body1 li,.body2 li{
     list-style-type: circle;
+    line-height: 1.5em;
+    font-size: 1.15rem;
 }
 /* *******************************ABOUT PAGE**************************** */
-.about{
-    margin: 5% 10%;
-}
+
 .about h1{
-    
     text-align: left;
     font-style: italic;
     line-height: 0.80em;
