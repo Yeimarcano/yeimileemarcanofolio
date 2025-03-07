@@ -13,10 +13,10 @@ body{
 
 /* ***************************HEADER************************* */
 header{
-    background-color: #c5b6cb;
+    background-color: #bcaac4;
     /* background:radial-gradient(circle, rgba(2,61,81,1) 13%, rgba(30,17,49,1) 100%); */
     padding: 0.75em 0em;
-    border-bottom: white solid 1px;    
+    border-bottom: #1D1130 solid 2px;    
 }
 
 .menu ul{
@@ -26,12 +26,12 @@ header{
     
 }
 .menu li{
-    padding: 0 3em;
+    padding: 0 2em;
     align-self: center;
 }
 .menu a{
     text-decoration: none;
-    color:  #1E0034;
+    color:  #1D1130;
     font-size: 1rem;
     font-style: italic;
     font-weight: 450;
@@ -63,13 +63,13 @@ header{
     line-height: 1.25em;
     font-size: 1.25rem;
     font-weight: 400;
-    background-color:#1E0034;
+    background-color:#1D1130;
     padding: 2.5em 7em;
 }
 
 .banner{
-    max-width:100%;
-    /* margin-left: 7.3%; */
+    max-width:90%;
+    margin-left: 4.8%;
 }
 
 .work {
@@ -97,13 +97,13 @@ header{
 
 .project h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
 }
 .project h2{
     margin-top: 2em;
     margin-bottom: 0.25em;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -111,21 +111,22 @@ header{
 /* ***************************DESCRIPTIONS*********************************** */
 
 .description h1{
-    font-size: 4rem;
+    font-size: 3.25rem;
     font-weight: 800;
     align-self: center;
 }
 .description h2{
     margin-top: 0.25em;
-    font-size: 1.30rem;
+    font-size: 1.25rem;
     font-weight: 300;
     font-style: italic;
 }
 .description p{
     margin-top: 1.25em;
-    font-size: 1.15rem;
+    font-size: 1.10rem;
     font-weight: 400;
     line-height: 1.5em;
+    text-align: justify;
 }
 
 .description h3{
@@ -138,7 +139,7 @@ header{
 .description h4{
     font-size: 1rem;
     margin-top: 1em;
-    width: 60%;
+    width: 50%;
     line-height: 1.25em;
     font-weight: 200;
 }
@@ -186,6 +187,7 @@ header{
    grid-column-start: 2;
    grid-column-end: span 3;
    margin-top: 0;
+   text-align: justify;
 }
 
 .body1 ul, .body2 ul{
@@ -196,28 +198,34 @@ header{
 .body1 li,.body2 li{
     list-style-type: circle;
     line-height: 1.5em;
-    font-size: 1.15rem;
+    font-size: 1.10rem;
 }
 /* *******************************ABOUT PAGE**************************** */
 
-.about h1{
-    text-align: left;
-    font-style: italic;
-    line-height: 0.80em;
-    font-size: 7rem;
-    font-weight: 800;
+#name{
+    max-width:60%;
 }
 .about p{
-    margin-top: 1.5em;
+    max-width: 100%;
     font-size: 1.25rem;
     line-height: 1.25em;
+    margin-bottom: 1em;
+
 }
 
-#photo{
-    max-width: 350px;
+/* #photo{
+    max-width: 40%;
     border-radius: 55%;
     border: #501f5b 8px solid;
     float: right;
+    
+} */
+
+#icon{
+    max-width: 55%;
+    position: relative;
+    left: 20%;
+    margin-top: 2em;
     
 }
 
@@ -228,7 +236,8 @@ footer {
     align-items: center;
     margin-top: 1em;
     padding: 2em 1.5em;
-    background-color: #1E0034;
+    background-color: #1D1130;
+    border-top: #bcaac4 solid 2px;
     clear: both;
     justify-content: space-between;
 
@@ -255,46 +264,86 @@ footer a svg:hover{
 
 /* /////////////////////////////////RESPONSIVE//////////////////////////////////////////////////////////////////////////// */
 @media (max-width:768px){
+/* *********************************header*/
+    .menu li{
+        padding: 0 2em;
+    
+    }
 
-  .banner{
-    max-width: 100%;
-    margin-left: 0;
-  }
+/* **************************HOME */
+    .home h2, .home h3{
+        margin-top: 0.5em;
+        text-align: left;
+    }
 
-  .work{
-    display: block;
-  }
- 
+    .home h2{
+        margin-top: 1em;
+        padding: 0.75em;
+        font-size: 1.75rem;
+    }
 
- footer{
-    left: 0;
- }
+    .home h3{ 
+        font-size: 1.15rem;
+        font-weight: 300;
+        padding: 1.5em 1em;
+    }
 
+    .banner{
+        width: 100%;
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .work{
+        display: block;
+        margin: 0 0.5em;
+    }
+    .work img{
+        width: 100%;
+    }
+   
 
 
 
+    /* ************************************ABOUT */
+
+    #name{
+        min-width:100%;
+    }
+    .about p{
+        font-size: 1.10rem;
+    }
+    
+    #icon{
+        min-width: 100%;
+        left: 0;
+        
+    }
+
+
+
+ /* ********************************FOOTER */
+    footer {
+        display: block;
+        margin-top: 0em;
+        padding: 3em 1.5em;
+        text-align: center;
+
+    }
+    footer h4{
+        font-weight: 200;
+        margin-bottom: 1em;
+
+    }
+    footer svg{
+        padding: 0.75em;
+        background-color: #83628a;
+        border-radius: 20px;
+    }
+    
+    footer a{
+        margin-right: 0.35em;
+        padding: 0;
+        
+    }
+    
 }
