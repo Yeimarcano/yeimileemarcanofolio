@@ -65,12 +65,16 @@ header{
     font-weight: 400;
     background-color:#1D1130;
     padding: 2.5em 7em;
+   
+}
+#sign{
+    display: none;
+}
+.banner img{
+    max-width: 80%;
+    margin: 0 9.97%;
 }
 
-.banner{
-    max-width:90%;
-    margin-left: 4.8%;
-}
 
 .work {
     display: grid;
@@ -113,7 +117,7 @@ header{
 .description h1{
     font-size: 3.25rem;
     font-weight: 800;
-    align-self: center;
+    
 }
 .description h2{
     margin-top: 0.25em;
@@ -131,8 +135,8 @@ header{
 
 .description h3{
     margin-top: 2em;
-    font-size: 1.75em;
-    font-weight: 600;
+    font-size: 1.75rem;
+    font-weight: 500;
     font-style: italic;
     text-align: left;
 }
@@ -203,9 +207,10 @@ header{
 /* *******************************ABOUT PAGE**************************** */
 
 #name{
-    max-width:60%;
+    max-width:55%;
 }
 .about p{
+    margin-top: 2em;
     max-width: 100%;
     font-size: 1.25rem;
     line-height: 1.25em;
@@ -267,13 +272,12 @@ footer a svg:hover{
 /* *********************************header*/
     .menu li{
         padding: 0 2em;
-    
     }
 
 /* **************************HOME */
     .home h2, .home h3{
-        margin-top: 0.5em;
-        text-align: left;
+        margin-top: 2em;
+        
     }
 
     .home h2{
@@ -283,34 +287,102 @@ footer a svg:hover{
     }
 
     .home h3{ 
-        font-size: 1.15rem;
+        font-size: 1.05rem;
         font-weight: 300;
-        padding: 1.5em 1em;
+        padding: 1.25em 1em;
+        text-align: left;
+        
     }
 
-    .banner{
-        width: 100%;
-
+    .banner img{
+        display: none;
+    }
+    .banner #sign{
+        display: block;
+        margin-top: 1em;
     }
 
     .work{
         display: block;
-        margin: 0 0.5em;
     }
     .work img{
         width: 100%;
     }
+   /* *******************************DESCRIP */
+    .description h1{
+        font-size: 2rem;
+    }
+
+    .description h2{
+        font-size: 1.10rem;
+        line-height: 1.20em;
+    }
+    .description p{
+        font-size: 1rem;
+        line-height: 1.35em;
+        text-align: left;
+
+    }
+
+    .description h3{
+        margin-top: 1.5em;
+        font-size: 1.45rem;
+    }
+    
+    .description h4{
+        font-size: 0.85rem;
+        width: 100%;
+        font-weight: 200;
+    }
+
+    #image{
+        float: left;
+        width: 80%;
+        margin: 1em 2em;
+        margin-bottom: 2em;
+    }
    
+    .showcase{
+        display: block;
+        
+       
+    }
+    .one{
+        margin-top: 2em;
+    }
+ /* ********************time */
+    #p1, #p2{
+        width: 100%;
+        clear: both;
+    }
+    #p2{
+        margin-bottom: 4em;
+    }
+    
+    .grid{
+        display: block;
+    }
+   
+    #p3{
+       margin-top: 1.75em;
+       text-align: left;
+       margin-bottom: 4em;
+    }
+    
+    
+    .body1 li,.body2 li{
+        font-size: 1rem;
+    }
 
 
 
-    /* ************************************ABOUT */
+/* ************************************ABOUT */
 
     #name{
         min-width:100%;
     }
     .about p{
-        font-size: 1.10rem;
+        font-size: 1.05rem;
     }
     
     #icon{
