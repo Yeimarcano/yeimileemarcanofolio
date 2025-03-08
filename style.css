@@ -309,6 +309,20 @@ footer a svg:hover{
     .work img{
         width: 100%;
     }
+
+    /* **********************projects */
+    .project h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .project h2{
+        margin-top: 1.25em;
+        margin-bottom: 0.25em;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
    /* *******************************DESCRIP */
     .description h1{
         font-size: 2rem;
@@ -352,12 +366,15 @@ footer a svg:hover{
         margin-top: 2em;
     }
  /* ********************time */
+    #vimeo{
+        width: 100%;
+    }
     #p1, #p2{
         width: 100%;
         clear: both;
     }
     #p2{
-        margin-bottom: 4em;
+        margin-bottom: 1em;
     }
     
     .grid{
@@ -404,6 +421,7 @@ footer a svg:hover{
     }
     footer h4{
         font-weight: 200;
+        font-size: 1rem;
         margin-bottom: 1em;
 
     }
