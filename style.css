@@ -275,11 +275,7 @@ footer a svg:hover{
     }
 
 /* **************************HOME */
-    .home h2, .home h3{
-        margin-top: 2em;
-        
-    }
-
+   
     .home h2{
         margin-top: 1em;
         padding: 0.75em;
@@ -287,10 +283,17 @@ footer a svg:hover{
     }
 
     .home h3{ 
-        font-size: 1.05rem;
+        font-size: 1rem;
         font-weight: 300;
         padding: 1.25em 1em;
         text-align: left;
+        margin-bottom: 4.5em;
+        margin-right: 2em;
+        margin-top: 3em;
+        border:#9F90A5 solid 1.5px;
+        border-left: none;
+        border-radius: 2px;
+        
         
     }
 
