@@ -161,7 +161,7 @@ header{
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
-#one{
+.one{
     margin-top: 4em;
     grid-column-start:1;
     grid-column-end: span 2;
@@ -208,7 +208,7 @@ header{
 #photo{
     float: right;
     max-width:500px;
-    box-shadow: 4px 2px 4px 2px rgb(224, 228, 247);
+    /* box-shadow: 4px 2px 4px 2px rgb(224, 228, 247); */
     margin-left: 1em;
 }
 #name{
@@ -258,7 +258,7 @@ header{
     align-items: center;
     border-radius: 30px;
     padding: 2.5em 0;
-    background-color: #ded6e8cf;
+    background-color: #ded6e8b1;
        
 }
 
@@ -414,7 +414,7 @@ footer a svg:hover{
         
        
     }
-    #one{
+    .one{
         margin-top: 2em;
     }
  /* ********************time */
