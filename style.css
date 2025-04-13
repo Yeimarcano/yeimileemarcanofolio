@@ -113,7 +113,6 @@ header{
 
 
 /* ***************************DESCRIPTIONS*********************************** */
-
 .description h1{
     font-size: 3.25rem;
     font-weight: 800;
@@ -162,7 +161,7 @@ header{
     clear: both;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 0;
 }
 .one{
     margin-top: 1em;
@@ -197,12 +196,12 @@ header{
    text-align: justify;
 }
 
-.body1 ul, .body2 ul{
+.body ul{
     margin-top: 0.75em;
 
 }
 
-.body1 li,.body2 li{
+.body li{
     list-style-type: circle;
     line-height: 1.5em;
     font-size: 1.10rem;
@@ -210,44 +209,40 @@ header{
 /* *******************************ABOUT PAGE**************************** */
 #photo{
     float: right;
-    max-width:500px;
+    max-width:480px;
     /* box-shadow: 4px 2px 4px 2px rgb(224, 228, 247); */
     margin-left: 1em;
+    margin-bottom: 2em;
 }
 #name{
-    max-width:50%;
+    max-width:45%;
 }
 .about h2{
-    margin-top: 1em;
+    margin-top: 2em;
     clear: both;
-    font-size: 1.5rem;
+    font-size: 1.40rem;
     font-weight: 500;
     font-style: italic;
     margin-bottom: 1.5em;
+    background-color: #50205c;
+    padding: 0.90em;
 }
 .about p{
     margin-top: 2em;
     max-width: 100%;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     line-height: 1.25em;
     margin-bottom: 1em;
 
 }
 
-/* #photo{
-    max-width: 40%;
-    border-radius: 55%;
-    border: #501f5b 8px solid;
-    float: right;
-    
-} */
 
 #icon{
     max-width: 55%;
     position: relative;
     left: 20%;
     margin-top: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
     
 }
 .pattern{
@@ -261,7 +256,7 @@ header{
     align-items: center;
     border-radius: 30px;
     padding: 2.5em 0;
-    background-color: #ded6e8b1;
+    background-color: #ded6e895;
        
 }
 
@@ -286,12 +281,19 @@ header{
 
 
 
-/* **************FOOTER******* */
+/* **************FOOTER ++++++++++++++++++++++ the arrow nav******* */
+.arrow{
+    margin: 2em 3em;
+    padding: 0.25em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 1em;
     padding: 2em 1.5em;
     background-color: #1D1130;
     border-top: #bcaac4 solid 2px;
@@ -379,7 +381,8 @@ footer a svg:hover{
     }
     
    /* *******************************DESCRIP */
-    .description h1{
+    
+   .description h1{
         font-size: 2rem;
     }
 
@@ -443,7 +446,7 @@ footer a svg:hover{
     }
     
     
-    .body1 li,.body2 li{
+    .body li{
         font-size: 1rem;
     }
 
