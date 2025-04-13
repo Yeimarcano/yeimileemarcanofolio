@@ -11,15 +11,24 @@
         background: linear-gradient(321deg, rgba(30,17,49,1) 33%, rgba(2,61,81,1) 100%);
         }
         .grid{
+            grid-template-columns: 45% 60%;
             grid-gap: 0;
 
         }
-        .grid img{
-            width: 640px;
+        .description .grid img{
+            max-width:87%;
         }
-         #vimeo{
-            width: 550px;
+        .grid img:last-child{
+            grid-row-start: 2;
         }
+                 
+        @media (max-width:768px){
+            .description .grid img{
+             max-width:100%;
+            }
+        }
+
+
     </style>
    
 </head>
@@ -43,7 +52,7 @@
             <div class="grid">
                 <img id="vimeo" src="../images/print/ArtDecoPoster.png" alt="ArtDecoPoster" >
                  <img src="../images/print/PosterMockup.png" alt="SubwayPoster" >
-                 <img src="../images/print/PosterMockup2.png" alt="PosterMockup" style=" grid-column-start: 2; grid-column-end: 3;">
+                 <img src="../images/print/PosterMockup2.png" alt="PosterMockup">
             </div>
             
             <h4>Art Deco is defined by geometric shapes, bold curves, strong vertical lines, aerodynamic forms, motion lines, airbrushing and sunbursts . Unlike the Early Modern style, Art Deco highly exercises its use of illustrations and graphic representations of everyday objects.</h4>

@@ -186,6 +186,7 @@ header{
 #vimeo{
   grid-row-start:1;
   grid-row-end: span 2;
+  max-width: 100%;
 }
 
 
