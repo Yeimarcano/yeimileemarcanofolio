@@ -52,21 +52,18 @@ header{
 }
 
 .home h2{
-    /* background-color: #1E0034; */
-    padding: 0.75em;
-    font-size: 2.75rem;
-    font-weight: 700;
-    margin-top: 1em;
+    padding: 1em 0.75em;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* margin-top: 1em; */
+    background-color: #023D51;
 }
-
 .home h3{ 
     line-height: 1.25em;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 400;
     background-color:#1D1130;
-    padding: 3em 4em;
-    border-top: #cec8d8 solid 1px;
-    border-bottom: #cec8d8 solid 1px;
+    padding: 2.5em 4em;
 
 }
 #sign{
@@ -77,9 +74,7 @@ header{
     margin: 0 9.97%;
 }
 
-.home .work{
-    margin-bottom: 2.5em;
-}
+
 .work {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -100,43 +95,28 @@ header{
 
     /* border-radius: 150px ; */
 }
-.profile{
-    /* margin: 5% 6%; */
-    display: flex;
-    flex-direction: row;
-    /* background:radial-gradient(circle, rgba(2,61,81,1) 13%, rgba(30,17,49,1) 100%); */
-    /* background-color: #9F90A5; */
-}
-.profile img, .profile p{
-     margin: 5% 6%;
-}
-.profile img{
-    max-width: 35%;
-    background-color: #cec8d8;
-    border-radius: 100%;
-    border: #50205c 10px;
-    border-style: groove;
-   
-}
-.profile p{
-    align-self: center;
-    font-size: 1.45rem;
-    line-height: 1.35em;
-    text-align: center;
-    font-weight: 500;
-}
+
+
+
 /* ***************************************PROJECTS PAGE */
 
 .project h1 {
     text-align: center;
     font-size: 4rem;
     font-weight: 800;
+    
 }
 .project h2{
     margin-top: 2em;
     margin-bottom: 0.25em;
     font-size: 2rem;
     font-weight: 700;
+    /* padding: 0.5em;
+    border-bottom: #56a599  solid 5px;
+    border-left:#56a599 solid 2px;
+    border-top:#56a599 solid 2px;
+    border-radius: 5px;
+    background-color: #023D51; */
 }
 
 
@@ -246,30 +226,39 @@ header{
 /* *******************************ABOUT PAGE**************************** */
 #photo{
     float: right;
-    max-width:480px;
+    max-width: 480px;
     /* box-shadow: 4px 2px 4px 2px rgb(224, 228, 247); */
-    margin-left: 1em;
+    /* margin-left: 1em; */
     margin-bottom: 2em;
+    
 }
+
 #name{
-    max-width:45%;
+    float: left;
+    max-width:40%;
+    margin-bottom: 0.5em;
 }
 .about h2{
-    margin-top: 2em;
+    margin-top: 4em;
     clear: both;
     font-size: 1.40rem;
     font-weight: 500;
     font-style: italic;
     margin-bottom: 1.5em;
     background-color: #50205c;
+    border-radius: 5px;
     padding: 0.90em;
 }
+.about .text{
+    float: left;
+    width: 60%;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+}
 .about p{
-    margin-top: 2em;
-    max-width: 100%;
+    margin-top: 0.75em;
     font-size: 1.20rem;
-    line-height: 1.25em;
-    margin-bottom: 1em;
+    line-height: 1.5em;
 
 }
 
@@ -293,7 +282,7 @@ header{
     align-items: center;
     border-radius: 30px;
     padding: 2.5em 0;
-    background-color: #ded6e895;
+    background-color: #dedae28d;
        
 }
 
@@ -308,7 +297,7 @@ header{
 }
 .bodyText a{
     background-color: #DED6E8;
-    padding: 1em;
+    padding: 0.75em;
     border-radius: 20px;
     color: #023D51;
     text-decoration: none;
@@ -507,12 +496,16 @@ footer a svg:hover{
 
 /* ************************************ABOUT */
     #photo{
-        width:100%;
         clear: both;
+        width: 100%;
 
     }
     #name{
         min-width:100%;
+    }
+    .about .text{
+        clear: both;
+        width: 100%;
     }
     .about p{
         font-size: 1.05rem;
