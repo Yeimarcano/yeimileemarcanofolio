@@ -227,9 +227,8 @@ header{
 #photo{
     float: right;
     max-width: 480px;
-    /* box-shadow: 4px 2px 4px 2px rgb(224, 228, 247); */
-    /* margin-left: 1em; */
     margin-bottom: 2em;
+   
     
 }
 
@@ -264,9 +263,9 @@ header{
 
 
 #icon{
-    max-width: 55%;
+    max-width: 60%;
     position: relative;
-    left: 20%;
+    left: 18%;
     margin-top: 2em;
     margin-bottom: 3em;
     
