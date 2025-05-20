@@ -154,19 +154,25 @@ header{
     line-height: 1.5em;
     font-weight: 200;
 }
-.description h4 a{
+.description #button{
+    margin-top: 1em;
+    width: 50%;
+    background-color: #56a599;
+    border-radius: 10px;
+    padding: 0.75em;
+    
+}
+#button a{
     font-size: 1.10rem;
     font-style: italic;
-    background-color: #56a599;
-    text-decoration: none;
     color: #DED6E8;
-    padding: 0.75em;
-    border-radius: 10px;
+    text-decoration: none;
     font-weight: 500;
 }
-.description h4 a:hover{
+#button a:hover{
     color: #023D51;
 }
+
 .description img{
     width: 100%;
 }
@@ -203,6 +209,9 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 3em;
 
+}
+.grid img{
+    max-width: 100%;
 }
 #vimeo{
   grid-row-start:1;
@@ -316,7 +325,9 @@ header{
     font-size: 1.25rem;
 
 }
-
+.bodyText a:hover{
+    color: #50205c;
+}
 
 
 /* **************FOOTER ++++++++++++++++++++++ the arrow nav******* */
@@ -453,10 +464,22 @@ footer a svg:hover{
     }
     
     .description h4{
-        font-size: 0.85rem;
+        font-size: 0.95rem;
         width: 100%;
         font-weight: 200;
     }
+
+    .description #button{
+        margin-top: 1em;
+        width: 90%;
+        text-align: center;
+    
+    }
+    #button a{
+        font-size: 1.05rem;
+       line-height: 1.10em;
+    }
+        
 
     #image{
         float: left;
@@ -573,6 +596,7 @@ footer a svg:hover{
         padding: 0.75em;
         background-color: #83628a;
         border-radius: 20px;
+        margin-top: 2em;
     }
     
     footer a{
