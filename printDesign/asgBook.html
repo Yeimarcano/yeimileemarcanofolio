@@ -3,59 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Arepa, Sugar Cake and Grilled Cheese Book</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
     <style>
         body{
-            background:  url(images/bg.png) repeat fixed top left/100%;
+        background: linear-gradient(321deg, rgba(30,17,49,1) 33%, rgba(2,61,81,1) 100%);
         }
-         footer{
-            font-size: 0.80rem;
-            font-weight: 100;
+        .arrow{
+            float: right;
+        }
+        .body{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-gap: 1.25em;
+            margin-bottom: 2em;
+        }
+        .body ul{
+            padding-left: 6em;
+            border-left: white 1px solid;
         }
     </style>
-
+   
 </head>
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="work.html">Projects</a></li>
-                <li><h1><a href="index.html"><img id="logo" src="images/CentralLogo.png" alt="logo"></a></h1></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="../work.html">Projects</a></li>
+                <h1><a href="../index.html"><img id="logo" src="../images/CentralLogo.png" alt="logo"></a></h1>
+                <li><a href="../about.html">About Me</a></li>
             </ul>
         </nav>
-    </header> 
+    </header>
     <div class="wrapper">
-        <main class="project">
-            <h1>Portfolio</h1>  
-                <h2>Print Design</h2> 
-                    <div class="work">
-                        <a href="printDesign/asgBook.html"><img src="images/print/ASGfrontCover.png" alt="asg book"></a>
-                        <a href="printDesign/DGcover.html"><img src="images/print/book.jpg" alt="Book"></a>
-                        <a href="printDesign/MusciPoster.html"><img src="images/print/PosterMockup.png" alt="pianoPoster"></a>
-                        <a href="printDesign/RealSimpleDesign.html"><img src="images/print/RSM2.jpg" alt="realSimpleThumbnail"></a>
-                    </div>
-                <h2>Branding </h2>
-                    <div class="work">
-                        <a href="branding/avilaEats.html"><img src="images/brand/AESign.jpg" alt="AESign" width="550"></a>
-
-                </div>
-                <h2>Digital Design</h2>
-                        <div class="work">
-                        <a href="web/timelyTask.html"><img src="images/TTMock.jpg" alt="app" width="550"></a>
-                        <a href="web/shallWeDance.html"><img src="images/shallWeDance.png" alt="shallWeDance"></a>
-
-                    </div>
-             
+        <main class="description">
+            <img id="image" src="../images/print/ASG-Cover.png" alt="frontcover" style="border-radius: 5px;">
+            <h1>Arepa, Sugar Cake and Grilled Cheese Book</h1>  
+            <h2> Print Design | 2025</h2>
+            <h2>Software:  Adobe Indesign, Adobe Illustrator</h2>
+            
+            <p>Arepa, Sugar Cake and Grilled Cheese is a heartfelt bilingual story about a young girl and her multicultural family living in the US. The story will emphasize how belonging in this country is multi-faceted, and how widespread and foundational multicultural identities are to the US. It also sublimely teaches the American birthright citizenship.With the collaboration of Angel Castillo, Jayveon Boland, and Yeimilee Marcano, this bilingual book supports our campaign about birthright and cultural awareness in American children, focusing on educating and supporting the multicultural community. </p>
                 
+            <p>We have two target audiences: Children between ages 4 to 6 years old who were born in the US and have immigrant parents. Immigrant parents, who came to the US to have a better life. </p>
+            <div class="body">
+                <h3>Key Deliverables</h3>
+                    <ul>
+                        <li>A bilingual (Spanish-English) illustrated children's book that reflects birthright, the sense of belonging, and acceptance of having a different cultural background.</li>
+                        <li>A website about the children’s book and where to find it. Most importantly, it will have resources for news or legal updates about birthright citizenship. Help you get in contact with an immigration lawyer.</li>
+                        <li>Sticker Sheet where the first thousand books would have it in the book.</li>
+                    </ul>
+                <h3>My Role</h3>
+                    <ul>
+                        <li>Layout and typography</li>
+                        <li>Storytelling</li>
+                        <li>Sticker Sheet</li>
+                    </ul>
+            </div>
+            <div class="showcase">
+                <div class="one">
+                    <img src="../images/print/ASG-mockup.jpg" alt="wholemockup">
+                    <img src="../images/print/ASG-BookCover.png" alt="bookcover">
+                   <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/4923713bb3.html" style="border: 0px; width: 100%; height: 562px;"></iframe>
+                </div>
+                
+                <img src="../images/print/stickers-mockup.png" alt="">
+                <img src="../images/print/stickers.png" alt="stickers">
+                <!-- <img src="../images/print/symmetry.png" alt="symmetry"> -->
+            </div>
+            <h4>Want to know more about our campaign approach? Take a look at our Case Study</h4>
+            <h4><a href="https://drive.google.com/file/d/10rfuQ0xc4KO2b3lcOA3R0e0HNf4TT07x/view?usp=sharing" target="_blank" rel="noopener noreferrer">Arepa, Sugar Cake and Grilled Cheese - Campaign Presentation </a></h4>
+          
 
         </main>
     </div>
+    <div class="arrow">
+        <!-- <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30 30" fill="none">
+            <path d="M0 3.75C0 1.67893 1.67893 0 3.75 0H26.25C28.3211 0 30 1.67893 30 3.75V26.25C30 28.3211 28.3211 30 26.25 30H3.75C1.67893 30 0 28.3211 0 26.25V3.75ZM19.6875 22.5V7.49998C19.6875 7.1308 19.4708 6.796 19.1341 6.64476C18.7973 6.49352 18.4031 6.55402 18.1272 6.79929L9.68966 14.2993C9.48951 14.4772 9.375 14.7322 9.375 15C9.375 15.2678 9.48951 15.5228 9.68966 15.7007L18.1272 23.2007C18.4031 23.4459 18.7973 23.5064 19.1341 23.3552C19.4708 23.204 19.6875 22.8692 19.6875 22.5Z" fill="#BCAAC4"/>
+        </svg></a> -->
+        <a href="DGcover.html"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30 30" fill="none">
+            <path d="M0 3.75C0 1.67893 1.67893 0 3.75 0H26.25C28.3211 0 30 1.67893 30 3.75V26.25C30 28.3211 28.3211 30 26.25 30H3.75C1.67893 30 0 28.3211 0 26.25V3.75ZM10.3125 22.5C10.3125 22.8692 10.5292 23.204 10.8659 23.3552C11.2027 23.5064 11.5969 23.4459 11.8728 23.2007L20.3103 15.7007C20.5105 15.5228 20.625 15.2678 20.625 15C20.625 14.7322 20.5105 14.4772 20.3103 14.2993L11.8728 6.79929C11.5969 6.55402 11.2027 6.49352 10.8659 6.64476C10.5292 6.796 10.3125 7.1308 10.3125 7.49998V22.5Z" fill="#BCAAC4" />
+        </svg></a>
+    </div>
     <footer>
         <h4>Contact Me</h4>
-        &copy This portfolio website had been handcoded. This is work in progress.
         <div>
             <a href="mailto:yeimilee.marcano@gmail.com" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24" fill="none">

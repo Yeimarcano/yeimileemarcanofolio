@@ -150,9 +150,22 @@ header{
 .description h4{
     font-size: 1rem;
     margin-top: 1em;
-    width: 50%;
-    line-height: 1.25em;
+    width: 55%;
+    line-height: 1.5em;
     font-weight: 200;
+}
+.description h4 a{
+    font-size: 1.10rem;
+    font-style: italic;
+    background-color: #56a599;
+    text-decoration: none;
+    color: #DED6E8;
+    padding: 0.75em;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.description h4 a:hover{
+    color: #023D51;
 }
 .description img{
     width: 100%;
