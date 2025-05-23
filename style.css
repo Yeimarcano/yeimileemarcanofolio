@@ -155,11 +155,11 @@ header{
     font-weight: 200;
 }
 .description #button{
-    margin-top: 1em;
-    width: 50%;
+    margin: 1em;
     background-color: #56a599;
     border-radius: 10px;
     padding: 0.75em;
+    text-align: center;
     
 }
 #button a{
@@ -168,6 +168,7 @@ header{
     color: #DED6E8;
     text-decoration: none;
     font-weight: 500;
+    
 }
 #button a:hover{
     color: #023D51;
