@@ -154,7 +154,7 @@ header{
     line-height: 1.5em;
     font-weight: 200;
 }
-#button{
+.description #button{
     width: 60%;
     margin: 1em auto;
     border: #50205c solid 3px;
@@ -163,9 +163,7 @@ header{
     text-align: center;
     
 }
-/* #button:hover{
-    background-color: #50205c;
-} */
+
 #button a{
     font-size: 1.10rem;
     font-style: italic;
@@ -255,9 +253,6 @@ header{
     float: right;
     max-width: 480px;
     margin-bottom: 2em;
-
-   
-    
 }
 
 #name{
@@ -288,7 +283,15 @@ header{
     line-height: 1.5em;
 
 }
-
+.about #button{
+    width: 30%;
+    margin: 2em 0;
+    border: #50205c solid 3px;
+    border-radius: 20px;
+    padding: 0.75em;
+    text-align: center;
+    
+}
 
 #icon{
     max-width: 60%;
