@@ -304,12 +304,13 @@ header{
     align-items: center;
     border-radius: 30px;
     padding: 2.5em 0;
-    background-color: #dedae28d;
+    background-color: #dedae213;
+    border: #023D51 2.5px solid;
        
 }
 
 .bodyText img{
-    width: 250px;
+    width: 230px;
     padding-top: 1em;
 }
 
@@ -531,7 +532,7 @@ footer a svg:hover{
 
 
 /* ************************************ABOUT */
-    #photo{
+    #photo, .about .text{
         clear: both;
         width: 100%;
 
@@ -539,10 +540,7 @@ footer a svg:hover{
     #name{
         min-width:100%;
     }
-    .about .text{
-        clear: both;
-        width: 100%;
-    }
+
     .about p{
         font-size: 1.05rem;
     }
