@@ -102,12 +102,13 @@ header{
 
 .project h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 15rem;
     font-weight: 800;
+    
     
 }
 .project h2{
-    margin-top: 2em;
+    margin-top: 3em;
     margin-bottom: 0.25em;
     font-size: 2rem;
     font-weight: 700;
