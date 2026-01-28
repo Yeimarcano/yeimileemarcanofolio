@@ -252,7 +252,7 @@ header{
 /* *******************************ABOUT PAGE**************************** */
 #photo{
     float: right;
-    max-width: 460px;
+    max-width: 440px;
     margin-bottom: 2em;
 }
 
@@ -262,26 +262,31 @@ header{
     margin-bottom: 0.5em;
 }
 .about h2{
-    margin-top: 4em;
+    margin-top: 2em;
     clear: both;
     font-size: 1.40rem;
     font-weight: 500;
     font-style: italic;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.25em;
     background-color: #50205c;
     border-radius: 5px;
     padding: 0.90em;
 }
+
 .about .text{
     float: left;
     width: 60%;
     margin-top: 1.5em;
     margin-bottom: 3em;
 }
-.about p{
+.about .text p{
     margin-top: 0.75em;
+
+}
+.about p{
     font-size: 1.20rem;
     line-height: 1.5em;
+    margin-bottom: 1em;
 
 }
 .about #button{
@@ -293,6 +298,28 @@ header{
     text-align: center;
     
 }
+
+#edu ul{
+    margin-left: 1em;
+}
+#edu li{
+    list-style-type: circle;
+    margin-bottom: 1.5em;
+    line-height: 1.80em;
+}
+#edu li h3{
+    font-size: 1.20rem;
+    font-weight: 500;
+}
+
+#edu li p{
+    font-size: 1.05rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 0;
+}
+
+
 
 #icon{
     max-width: 60%;
@@ -550,7 +577,28 @@ footer a svg:hover{
     .about p{
         font-size: 1.05rem;
     }
-    
+    .about h2{
+        font-size: 1.30rem;
+    }
+
+    #edu li{
+        line-height: 1.5em;
+    }
+    #edu li h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    #edu li p{
+        font-size: 0.90rem;
+        
+    }
+
+
+
+
+
+
     #icon{
         min-width: 100%;
         left: 0;
