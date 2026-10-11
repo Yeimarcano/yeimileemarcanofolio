@@ -102,8 +102,9 @@ header{
 
 .project h1 {
     text-align: center;
-    font-size: 15rem;
+    font-size: 10rem;
     font-weight: 800;
+    margin-bottom: 0.5em;
     
     
 }
@@ -118,22 +119,27 @@ header{
     border-top:#56a599 solid 2px;
     border-radius: 5px;
     background-color: #023D51; */
+
 }
 
 
 /* ***************************DESCRIPTIONS*********************************** */
+.description b {
+    font-weight: 700;
+}
 .description h1{
-    font-size: 3.25rem;
+    font-size: 3.35rem;
     font-weight: 800;
     
 }
 .description h2{
     margin-top: 0.25em;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     font-weight: 300;
     font-style: italic;
 }
 .description p{
+    max-width: 80%;
     margin-top: 1.25em;
     font-size: 1.10rem;
     font-weight: 400;
@@ -487,6 +493,7 @@ footer a svg:hover{
         line-height: 1.20em;
     }
     .description p{
+        max-width: 100%;
         font-size: 1rem;
         line-height: 1.35em;
         text-align: left;
